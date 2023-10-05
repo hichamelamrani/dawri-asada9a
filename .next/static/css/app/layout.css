@@ -934,6 +934,9 @@ video {
 .w-\[90\%\] {
   width: 90%;
 }
+.w-\[95\%\] {
+  width: 95%;
+}
 .table-auto {
   table-layout: auto;
 }
