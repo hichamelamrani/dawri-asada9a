@@ -9,7 +9,7 @@ function AddTeme() {
   return (
     <div className="bg-stone-100 dark:bg-stone-900 ">
       <div className="container p-10">
-        <div className="w-10/12 m-auto p-8 lg:w-fit rounded-md shadow-lg bg-stone-50 dark:bg-stone-800">
+        <div className="w-10/12 m-auto p-8  lg:w-fit rounded-md shadow-lg bg-stone-50 dark:bg-stone-800">
           <form className="flex flex-col gap-4" action="">
             <div className=" flex flex-col gap-1 rounded-md">
               <label htmlFor="">ISM ALFARI9</label>
