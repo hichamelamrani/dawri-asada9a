@@ -3,7 +3,6 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Inter, Space_Grotesk, Changa } from "next/font/google";
 import { ThemeProvider } from "./theme-provider";
-import { ThemeSwitcher } from "@/components/ThemeSwitcher";
 
 const inter = Inter({ subsets: ["latin"] });
 const spaceGrotesk = Space_Grotesk({
@@ -30,7 +29,9 @@ export default function RootLayout({
       <body className={""}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <Navbar />
-          <main>{children}</main>
+          <main>
+            {children}
+          </main>
         </ThemeProvider>
       </body>
     </html>

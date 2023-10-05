@@ -1,8 +1,8 @@
 import React from "react";
-import ProgressBar from "../components/ProgressBar";
+import ProgressBar from "@/components/ProgressBar";
 
-function Loading() {
+function loading() {
   return <ProgressBar />;
 }
 
-export default Loading;
+export default loading;

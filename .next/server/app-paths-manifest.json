@@ -1,5 +1,6 @@
 {
-  "/not-found": "app/not-found.js",
   "/page": "app/page.js",
-  "/tasjil-fari9/page": "app/tasjil-fari9/page.js"
+  "/tasjil-fari9/page": "app/tasjil-fari9/page.js",
+  "/a5bar/page": "app/a5bar/page.js",
+  "/tawasl-ma3ana/page": "app/tawasl-ma3ana/page.js"
 }

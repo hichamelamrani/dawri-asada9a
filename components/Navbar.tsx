@@ -78,7 +78,7 @@ function Navbar() {
               onClick={() => setShowMenu(!showMenu)}
               className=" flex items-center font-bold text-2xl cursor-pointer"
             >
-              Menu <HiMenu />
+              <span className="hidden md:visible">Menu</span> <HiMenu />
             </span>
 
             <ul

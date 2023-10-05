@@ -1122,6 +1122,12 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(68 64 60 / var(--tw-bg-opacity));
 }
+@media (min-width: 768px) {
+
+  .md\:visible {
+    visibility: visible;
+  }
+}
 @media (min-width: 1024px) {
 
   .lg\:flex {
