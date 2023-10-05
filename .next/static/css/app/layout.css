@@ -907,6 +907,33 @@ video {
 .w-10 {
   width: 2.5rem;
 }
+.w-\[\] {
+  width: ;
+}
+.w-\[80\] {
+  width: 80;
+}
+.w-\[80vh\] {
+  width: 80vh;
+}
+.w-\[cal80vh\] {
+  width: cal80vh;
+}
+.w-\[calc\(80vh\)\] {
+  width: calc(80vh);
+}
+.w-\[calc\(80100\)\] {
+  width: calc(80100);
+}
+.w-\[calc\(80\%\)\] {
+  width: calc(80%);
+}
+.w-\[calc\(90\%\)\] {
+  width: calc(90%);
+}
+.w-\[90\%\] {
+  width: 90%;
+}
 .table-auto {
   table-layout: auto;
 }
