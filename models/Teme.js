@@ -10,4 +10,4 @@ const temeSchema = new Schema(
   },
   { timestamps: true }
 );
-export default mongoose.model("Teme", temeSchema);
+export default mongoose.models.Teme || mongoose.model("Teme", temeSchema);

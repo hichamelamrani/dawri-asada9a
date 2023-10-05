@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function LeftSider() {
   const alfr9Almocharika = [
@@ -16,7 +17,9 @@ export default function LeftSider() {
 
   return (
     <div className="w-full lg:w-3/12 rounded-2xl p-6 bg-stone-50 dark:bg-stone-800">
-      <h2 className="text-xl font-bold">Alfr9 Almocharika</h2>
+      <h2 className="text-xl font-bold">
+        <Link href="/temes">Alfr9 Almocharika</Link>
+      </h2>
       <div className="mt-4">
         <ul className="flex flex-col">
           {alfr9Almocharika.map((item) => (
