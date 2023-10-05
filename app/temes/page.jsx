@@ -1,5 +1,5 @@
 import React from "react";
-import { notFound } from "next/router";
+import { notFound } from "next/navigation";
 
 async function getData() {
   const response = await fetch("http://localhost:3000/api/temes", {
