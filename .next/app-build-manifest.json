@@ -6,30 +6,21 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/page": [
+    "/loading": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+      "static/css/app/loading.css",
+      "static/chunks/app/loading.js"
     ],
     "/tasjil-fari9/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/tasjil-fari9/page.js"
     ],
-    "/loading": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/loading.js"
-    ],
-    "/tawasl-ma3ana/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/tawasl-ma3ana/page.js"
-    ],
-    "/a5bar/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/a5bar/page.js"
+      "static/chunks/app/page.js"
     ],
     "/not-found": [
       "static/chunks/webpack.js",
