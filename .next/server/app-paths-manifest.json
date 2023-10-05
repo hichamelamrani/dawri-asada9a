@@ -1,6 +1,6 @@
 {
-  "/page": "app/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js",
   "/temes/page": "app/temes/page.js",
-  "/api/temes/route": "app/api/temes/route.js"
+  "/tasjil-fari9/page": "app/tasjil-fari9/page.js"
 }
